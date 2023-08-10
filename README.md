@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+## IMPORTANT!</br>
+Admin email: admin@user.com </br>
+Admin password: Pass123# </br> </br>
+Supervisor email: supervisor@user.com </br>
+Supervisor password: Pass123#Supervisor </br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## App overview</br>
+The platform is developed so that automatically first in it are entered one admin and one supervisor, and to each new registered user, a role Employee is given. 
+A user with a role Employee has automatically attached to himself a supervisor. 
+- Employee has the opportunity to make new requests to his supervisor, by choosing a start and end date of the request from a calendar.
+  The request is sent to his supervisor for approval or rejection. Employee can also see how many remaining vacation days he has.
+  He can see which employees are absent today (if there are any). He can also see the history of his requests, and if his request is rejected, he will see a comment from his supervisor for the reason.
+  Employee can also see his data in the system, such as his username, email address, the name of his supervisor, as well as delete his profile, if he decides.
+  
+- After the Supervisor enters the system, he has the opportunity to see all requests from employees, and has the option to approve or reject them.
+  If he decides to reject a request, he is obliged to enter a comment for the reason.
+  The supervisor can also see all registered users in the system, as well as their remaining vacation days.
+  
+- When we enter as an Admin, we have the opportunity to see the users in the system, as well as we can delete them (Soft Delete).
 
-## Available Scripts
+## App includes:</br>
+BackEnd: </br>
+- Repository pattern
+- Unit of work pattern
+- Authentication(Register, Login, Logout)
+- Handle errors functionality
+- JWT Token
+- Roles
+- Unit Tests </br>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+FrontEnd: </br>
+- React Hooks
+- Bootstrap
+- Material UI
+- Form validations
+- Confirm dialogs popups
+- Notifications
+- Search box
