@@ -1,0 +1,26 @@
+.main-search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 25px;
+    row-gap: 20px;
+    position: absolute;
+    left: 307px;
+    top: 120px;
+
+}
+
+h1 {
+    margin: 5px;
+    font-size: 10px;
+    color: rgb(1, 1, 59);
+}
+
+.search {
+    width: 410px;
+    background-color: white;
+}
+
+ul li {
+    font-size: 20px;
+}
